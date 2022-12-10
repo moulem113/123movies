@@ -1,0 +1,1 @@
+function getImage(imdbID){$.getJSON("https://api.themoviedb.org/3/movie/"+imdbID+"?api_key=48601496173843f8c0cb73f04d9b53bb",function(data){var img="https://image.tmdb.org/t/p/w780/"+data.backdrop_path;var img_css='url("'+img+'")';console.log(img_css);$('.overlay-video').css("background",img_css);});}
