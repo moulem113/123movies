@@ -4,4 +4,4 @@ console.log(params);return params;}
 var prmstr=window.location.search.substr(1);return prmstr!=null&&prmstr!=""?transformToAssocArray(prmstr):{};}();var params2=function(){function urldecode(str){return decodeURIComponent((str+'').replace(/\+/g,'%20'));}
 function transformToAssocArray(prmstr){var params='';var prmarr=prmstr.split("&");var tmparr=prmarr[0].split("=");params=tmparr[1];return params;}
 var prmstr=window.location.search.substr(1);return prmstr!=null&&prmstr!=""?transformToAssocArray(prmstr):{};}();jQuery(document).ready(function($){if(params2==1)
-{$(".traferurl").click();}});jQuery(document).ready(function($){$(".overlyclicks").click(function(){$(this).removeClass('overlyclicks');window.open('https://www.affforce.com/scripts/un981c6l?a_aid=a0a77753&a_bid=29cc11a7');});});
+{$(".traferurl").click();}});jQuery(document).ready(function($){$(".overlyclicks").click(function(){$(this).removeClass('overlyclicks');window.open('https://www.n5rthy.com/2QK4WZ11/TKR625/');});});
